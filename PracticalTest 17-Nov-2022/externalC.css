@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(219, 172, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+   color: rgb(199, 12, 68);
+    text-align: center;
+    font-family:Bodoni MT Black;
+    font-size: 60px;
+    text-shadow: 5px 5px black; 
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    /*text-decoration: 5px dashed rgb(31, 10, 10) underline; */
+}
+
+#a2{
+    color :black;
+    background-color: rgb(219, 172, 172);
+    /*text-decoration :underline ; */
+}
+
+#a1{
+    color :black;
+    font-family: Algerian;
+    font-size: 70;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-decoration :underline ;
+    background-color: rgb(219, 172, 172);
+}
+
+.links{
+    height: 50px;
+    width: 150%;
+    /*margin-top: 9px; */
+    background-color:rgb(140, 255, 207); 
+}
+
+.link{
+    height: 30px;
+    width: 60%;
+    /* background-color: green; */
+    /* letter-spacing: 2px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img{
+    height: 600px;
+    width: 100%;
+    margin-top: 9px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(168, 158, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+img{
+    padding-top: 8px;
+    display: block;
+    
+}
